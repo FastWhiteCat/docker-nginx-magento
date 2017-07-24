@@ -23,7 +23,6 @@ Run with configuration:
 docker run -Pit --name=nginx \
         -e SERVER_APP="127.0.0.1" \
         -e SERVER_PORT="9000" \
-        -e MAGE_MODE="developer" \
         -e MAGE_ROOT="/var/www/html/" fastwhitecat/nginx-magento
 ```
 
